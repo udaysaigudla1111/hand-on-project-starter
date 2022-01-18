@@ -1,0 +1,72 @@
+
+.nav .logo{
+    position: absolute;
+width: 120px;
+height: 29.24px;
+left: 60px;
+top: 28px;
+
+}
+
+
+
+
+.nav .button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 133px;
+height: 44px;
+left: 1247px;
+top: 22px;
+
+background: #142683;
+border-radius: 5px;
+}
+.nav .acc{
+    position: absolute;
+width: 89px;
+height: 21px;
+left: 1098px;
+top: 33px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+/* secondary text */
+
+color: #566474;
+
+}
+
+
+
+.nav .api{
+    position: absolute;
+width: 58px;
+height: 21px;
+left: 980px;
+top: 33px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #566474;
+
+} 

@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+.api .imgapi{
+    position: absolute;
+width: 1240px;
+height: 219.69px;
+left: 100px;
+top: 450px;
+
+
+}
+.api .a1{
+    position: absolute;
+width: 80px;
+height: 31px;
+left: 100px;
+top: 394px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}

@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+.template .pic1{
+
+    position: absolute;
+width: 150px;
+height: 186px;
+left: 394px;
+top: 148px;
+
+background: #D3B4F6;
+border-radius: 1000px 0px 0px 1000px;
+transform: rotate(-180deg);
+
+}
+.template .pic2{
+    position: absolute;
+width: 294px;
+height: 186px;
+left: 100px;
+top: 148px;
+
+
+}
+.template .pic3{
+    position: absolute;
+width: 800px;
+height: 186px;
+left: 394px;
+top: 148px;
+
+background: #C3E7FD;
+border-radius: 10px;
+}

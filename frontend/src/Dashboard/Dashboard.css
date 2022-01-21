@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+.Dashboard .rect{
+    position: absolute;
+width: 617px;
+height: 600px;
+left: 0px;
+top: 88px;
+
+background: rgba(247, 248, 250, 0.5);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Dashboard .d1{
+    position: absolute;
+width: 381px;
+height: 124px;
+left: 119px;
+top: 311px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 62px;
+letter-spacing: -0.02em;
+
+/* primary text */
+
+color: #1E272E;
+}
+.Dashboard .d2{
+    position: absolute;
+width: 480px;
+height: 135px;
+left: 119px;
+top: 475px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* or 45px */
+
+letter-spacing: -0.02em;
+
+/* secondary text */
+
+color: #566474;
+
+}

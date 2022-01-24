@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
@@ -5,6 +12,8 @@ dotenv.config();
 const bodyParser = require("body-parser");
 const user = require("./routes/user"); //new addition
 const app = express();
+const cors = require("cors");
+app.use(cors())
 
 mongoose
   .connect(process.env.MONGODB_URL)

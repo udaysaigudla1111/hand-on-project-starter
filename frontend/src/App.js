@@ -1,41 +1,31 @@
-import React from 'react'
-import Navitem from './nav/navitem';
-import Dash2 from './Dashboard/Dash2/Dash2';
-import Dash1 from './Dashboard/Dashboard';
-import Navsection from './pages/Navsection/Navsection';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    } from "react-router-dom";
 
 
 
-  import Allapi from './pages/Allapi/Allapi';
-import Template from './pages/Template/Template';
-const App = () => { 
-    return (
-        <Router>    
-        <div>
-        <Navitem></Navitem>
-          <Switch>
-    <Route exact path="/">
-<Dash1/>
-<Dash2 />
-      </Route>       
-      
+
+
+
+
+ import Dashboardd from './Dashboardd/Dashboardd';
+import Signup from './Signup/Signup';
+  import Loogin from './Loogin/Loogin'
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+const App = () => {
+  return <div>
+   <Router>
+      <Switch>
+      <Route exact path="/dashboard"><Dashboardd></Dashboardd></Route>
+      <Route exact path="/"> <Loogin/> </Route>
+      <Route exact path="/signup">  <Signup></Signup> </Route>
     
-    </Switch>  
-        </div>
-        <Switch>
-          <Route path="/about">
-          <Navsection></Navsection>
-           <Template></Template>
-           <Allapi></Allapi>
-          </Route>
-        </Switch>
-        </Router>
-    )
-}
+       
+      </Switch>  
+    
+    </Router>
+   
+ 
+   {/*} <Dashboardd/> */}
+  </div>;
+};
 
-export default App
+export default App;

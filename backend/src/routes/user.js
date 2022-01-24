@@ -1,5 +1,10 @@
 const express = require("express");
 
+
+
+
+
+
 const { check, validationResult } = require("express-validator/check");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
@@ -38,6 +43,7 @@ router.post(
       if (user) {
         return res.status(400).json({
           msg: "User Already Exists",
+    
         });
       }
 
@@ -50,7 +56,7 @@ router.post(
       const salt = await bcrypt.genSalt(10);
       user.password = await bcrypt.hash(password, salt);
 
-      await user.save();
+      await user.save()
 
       const payload = {
         user: {

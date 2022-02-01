@@ -1,5 +1,5 @@
 const express = require("express");
-
+//const axios = require('axios');
 
 
 
@@ -17,6 +17,7 @@ const auth  = require("../middleware/auth");
  * @param - /signup
  * @description - User SignUp
  */
+ 
 
 router.post(
   "/signup",
@@ -83,6 +84,10 @@ router.post(
     }
   },
 );
+
+      const { upload,uploadImage } = require('../Controllers/usercontrollers')
+
+      router.post('/upload',uploadImage,upload)
  
 router.post(
     "/login",
@@ -154,6 +159,10 @@ router.post(
       res.send({ message: "Error in Fetching user" });
     }
   });
+
+  
+
+  
 
 module.exports = router;
 

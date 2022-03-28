@@ -68,7 +68,7 @@ console.log(user);
 
    {/* <Link to="/about"> */} <input type="submit" value="Signup" name="signup" onClick={postdata} className='btnn' /> {/* </Link> */} <div></div>
                             <div><center>OR</center></div>
-                            <button className='btnn' onClick={() => history.push("/")}>Login</button>
+                            <button className='btnn' onClick={() => history.push("/login")}>Login</button>
 </form>
 </div>
   </div> 

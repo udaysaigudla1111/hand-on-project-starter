@@ -5,36 +5,71 @@
 
 
 
+.template{
+    
+    background-color:#FBEEC1;
+    display:flex;
+  padding-top: 40px;
+}
 
-.template .pic1{
+.hat{
 
+    margin-left: 50px;
+    height:200px;
+}
+
+.bluee{
+   
+    width: 900px;
+    height: 200px;
+    margin-left: 20px;
+ 
+}
+.text{
     position: absolute;
-width: 150px;
-height: 186px;
-left: 394px;
-top: 148px;
+    left: 475px;
+}
 
-background: #D3B4F6;
-border-radius: 1000px 0px 0px 1000px;
-transform: rotate(-180deg);
+.text1{
+  
+    font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+margin-bottom: 0px;
+margin-top: 50px;;
+/* identical to box height */
+
+
+
+/* primary text */
+
+color: #1E272E;
 
 }
-.template .pic2{
-    position: absolute;
-width: 294px;
-height: 186px;
-left: 100px;
-top: 148px;
+.text2{
 
-
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+   
+    
+    margin-top: 0px;
+    /* secondary text */
+    
+    color: #566474;
 }
-.template .pic3{
+.bgbtn{
     position: absolute;
-width: 800px;
-height: 186px;
-left: 394px;
-top: 148px;
+    font-family: cursive;
+    width: 110px;
+height: 44px;
+color: white;
+right:95px;
+top: 160px;
+background: #1E272E;
+border-radius: 5px;
 
-background: #C3E7FD;
-border-radius: 10px;
+
 }

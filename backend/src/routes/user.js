@@ -88,6 +88,16 @@ router.post(
       const { upload,uploadImage } = require('../Controllers/usercontrollers')
 
       router.post('/upload',uploadImage,upload)
+
+      const api = require('../Controllers/apiController');
+    
+      router.get(`/apis`,[api.getAllAPIs]);
+    router.get(`/apis/:author`,[api.getAPIsByUserID]);
+    router.post(`/apis`,[api.addAPI]);
+    router.put(`/apis/:id`,[api.updateAPI]);
+    router.delete(`/apis/:id`,[api.deleteAPI]);
+    router.delete(`/apis`,[api.deletedAllAPIs]);
+    
  
 router.post(
     "/login",

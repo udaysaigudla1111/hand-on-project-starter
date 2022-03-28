@@ -19,7 +19,7 @@ const Loogin = () => {
   useEffect(() => {
     const logged = localStorage.getItem("userInfo");
     if(logged){
-      history.push("/dashboard");
+      history.push("/userdashboard");
     }
   });
   const [user, setUser] = useState({

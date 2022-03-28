@@ -1,0 +1,128 @@
+
+
+
+
+
+
+
+.division{
+    display: flex;
+}
+
+*{
+padding:0px;
+margin:0px;
+}
+
+.homepage .division .side1{
+    width:683px;
+    height:615px;
+    background: rgba(247, 248, 250, 0.5);
+}
+
+
+
+
+
+
+.homepage .division .side1 .head{
+    display: inline;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    
+    /* primary text */
+
+    color: #1E272E;
+    
+}
+
+.homepage .division .sqr{
+    margin: auto;
+    width:450px;
+    height: 450px;
+    background: #FFFFFF;
+border: 1px solid #DFE0E0;
+box-sizing: border-box;
+border-radius: 10px;
+
+
+}
+
+.hat:hover{
+    
+}
+.homepage .division .side1 .hat{
+    
+    box-shadow: 5px 5px 10px;
+     width: 60%;
+    padding-top: 30px;
+    margin-left: 33px;
+}
+.homepage .division .side1 .left{
+    margin:120px 50px 100px 50px;
+    
+}
+.homepage .division .side1 .left .onlytext{
+    margin-left: 80px;
+}
+.homepage .division .side1 .left .txt{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: -0.02em;
+padding:10px 0 20px 0 ;
+/* secondary text */
+
+color: #566474;
+
+}
+.homepage .division .sqr .box{
+padding:30px;
+}
+.homepage .division .sqr .rightsidetext{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+letter-spacing: -0.02em;
+
+/* secondary text */
+
+color: #566474;
+}
+.homepage .division .sqr .uplaodbutton{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background: #142683;
+border-radius: 5px;
+padding: 10px 16px;
+color: white;
+width: 320px;
+}
+.icon{
+    position: absolute;
+    color: red;
+   width:300px;
+    height: 40px;
+    margin-top: 23px;
+   top:420px;
+    right: 30px;
+}
+.btn{
+    
+    background: #142683;
+    border-radius: 5px;
+    padding: 10px 16px;
+    color: white;
+    margin-top: 25px;
+    width: 320px;
+}

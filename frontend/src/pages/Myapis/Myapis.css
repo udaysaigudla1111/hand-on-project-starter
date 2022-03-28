@@ -1,0 +1,173 @@
+{/*}
+
+
+
+
+
+
+.nav .logo{
+    margin-left:20px;
+    padding-top: 10px;
+}
+
+.nav .acc{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+
+letter-spacing: -0.02em;
+
+
+
+color: #566474;
+margin: 0 25px;
+padding-top: 10px;
+}
+.nav .txt{
+    margin-left: 780px;
+    display: flex;
+}
+.nav .api{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+
+letter-spacing: -0.02em;
+
+
+
+color: #1E272E;
+margin: 0 25px;
+padding-top: 10px;
+}
+.nav .txt .modal{
+
+   
+}
+
+
+
+
+*/}
+
+
+
+.nav .logo{
+    margin-left:20px;
+    padding-top: 10px;
+}
+.btnn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    color:white;
+    background: #142683;
+     border-radius: 5px;
+     width: 400px;
+    height: 44px;
+    margin:20px 50px;
+
+}
+.nav{
+
+   
+    display: flex;
+   
+    flex-flow: wrap;
+    flex-direction: row;
+
+   
+}
+
+.nav .btn{
+    
+    background: #142683;
+    border-radius: 5px;
+    width: 133px;
+    height: 44px;
+    color: white;
+    margin:10px 25px;
+
+    }
+
+    .nav .acc{
+        font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+    
+    letter-spacing: -0.02em;
+    
+    
+    
+    color: #566474;
+    margin: 0 25px;
+    padding-top: 20px;
+
+    }
+
+    .nav .api{
+        font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+    
+    letter-spacing: -0.02em;
+    
+    
+    
+    color: #1E272E;
+    margin:0 25px 0 800px;
+   
+    padding-top: 20px;
+    }
+
+    .modal{
+        width: 498px;
+        height: 515px;
+        
+        background-color: white;
+        margin:auto;
+        margin-top: 90px;
+    }
+
+    .new{
+        width: 114px;
+    height: 26px;
+        margin-left: 49px;
+        padding-top: 63px;
+        font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+    
+    }
+    
+    
+.input{
+    width: 400px;
+    height:35px;
+    margin:20px 50px;
+}
+.desc{
+    width: 400px;
+    height: 90px;
+    margin:20px 50px;
+}
